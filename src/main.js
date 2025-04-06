@@ -1,1 +1,2 @@
-console.log("Aaaaaaaaaaaaaaaaa");
+import "./js/fetch-countries"
+import "./js/countries-layout"

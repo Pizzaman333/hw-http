@@ -1,3 +1,110 @@
-h1 {
-    color: red;
+body {
+  background-image: url(./img/main-bg.jpg);
+  background-size: cover;
 }
+
+.main__title {
+  margin-top: 35px;
+  font-family: "Rubik Mono One", sans-serif;
+  text-align: center;
+  font-size: 56px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#search {
+  padding: 15px 15px;
+  font-size: 24px;
+  border: none;
+  border-radius: 14px;
+  width: 500px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.country {
+  background-color: rgba(255, 255, 255, 0.85); 
+  padding: 15px 20px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: "Raleway", sans-serif;
+  margin-top: 15px;
+}
+
+.country__name {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.country__describtion {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.country__capital,
+.country__population {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.country__languages__title {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.country__languages {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.country__language {
+  font-size: 14px;
+  background: #eaeaea;
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.country__flag {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.error__box {
+    display: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffe0e0; 
+    color: #b00020; 
+    border: 1px solid #ff5c5c;
+    padding: 12px 0;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+  }
+  
